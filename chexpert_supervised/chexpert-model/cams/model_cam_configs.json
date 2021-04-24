@@ -1,0 +1,11 @@
+{
+    "DenseNet121": {
+        "target_layer": "module.model.features"
+    },
+    "ResNet152": {
+        "target_layer": "module.model.layer4.2.conv3"
+    },
+    "Inceptionv4": {
+        "target_layer": "module.model.features.21.branch3.1.conv"
+    }
+}

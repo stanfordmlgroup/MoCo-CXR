@@ -1,0 +1,104 @@
+{
+    "competition": {
+        "Atelectasis": 0,
+        "Cardiomegaly": 1, 
+        "Consolidation": 2,
+        "Edema": 3,
+        "Pleural Effusion": 4
+    },
+    "stanford": {
+        "No Finding": 0,
+        "Enlarged Cardiomediastinum": 1,
+        "Cardiomegaly": 2,
+        "Lung Lesion": 3,
+        "Airspace Opacity": 4,
+        "Edema": 5,
+        "Consolidation": 6,
+        "Pneumonia": 7,
+        "Atelectasis": 8,
+        "Pneumothorax": 9,
+        "Pleural Effusion": 10,
+        "Pleural Other": 11,
+        "Fracture": 12,
+        "Support Devices": 13
+    },
+    "stanford_exclude_NF": {
+        "Enlarged Cardiomediastinum": 0,
+        "Cardiomegaly": 1,
+        "Lung Lesion": 2,
+        "Airspace Opacity": 3,
+        "Edema": 4,
+        "Consolidation": 5,
+        "Pneumonia": 6,
+        "Atelectasis": 7,
+        "Pneumothorax": 8,
+        "Pleural Effusion": 9,
+        "Pleural Other": 10,
+        "Fracture": 11,
+        "Support Devices": 12
+    },
+    "nih": {
+        "Cardiomegaly": 0,
+        "Emphysema": 1,
+        "Pleural Effusion": 2,
+        "Hernia": 3,
+        "Infiltration": 4,
+        "Mass": 5,
+        "Nodule": 6,
+        "Atelectasis": 7,
+        "Pneumothorax": 8,
+        "Pleural Thickening": 9,
+        "Pneumonia": 10,
+        "Fibrosis": 11,
+        "Edema": 12,
+        "Consolidation": 13
+    },
+
+    "nih_su_union": {
+        "Pleural Effusion": 0,
+        "Pleural Other": 1,
+        "Infiltration": 2,
+        "Consolidation": 3,
+        "Mass": 4,
+        "Support Devices": 5,
+        "Airspace Opacity": 6,
+        "Lung Lesion": 7,
+        "No Finding": 8,
+        "Atelectasis": 9,
+        "Nodule": 10,
+        "Pneumothorax": 11,
+        "Enlarged Cardiomediastinum": 12,
+        "Fracture": 13,
+        "Edema": 14,
+        "Emphysema": 15,
+        "Pleural Thickening": 16,
+        "Hernia": 17,
+        "Pneumonia": 18,
+        "Fibrosis": 19,
+        "Cardiomegaly": 20
+    },
+    "su_using_nih_labeller": {
+        "Cardiomegaly": 0,
+        "Edema": 1,
+        "Consolidation": 2,
+        "Pneumonia": 3,
+        "Atelectasis": 4,
+        "Pneumothorax": 5,
+        "Pleural Effusion": 6
+    },
+    "single_atelectasis": {
+        "Atelectasis": 0
+    },
+    "single_cardiomegaly": {
+        "Cardiomegaly": 0
+    },
+    "single_consolidation": {
+        "Consolidation": 0
+    },
+    "single_edema": {
+        "Edema": 0
+    },
+    "single_pleural_effusion": {
+        "Pleural Effusion": 0
+    }
+}

@@ -1,0 +1,89 @@
+{
+  "aggregation_method": "mean",
+  "task2models": {
+    "No Finding": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Enlarged Cardiomediastinum": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Cardiomegaly": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Lung Lesion": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Airspace Opacity": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Edema": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_ones/best.pth.tar",
+        "is_3class": false
+      }
+    ],
+    "Consolidation": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_ignore/best.pth.tar",
+        "is_3class": false
+      }
+    ],
+    "Pneumonia": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Atelectasis": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_ones/best.pth.tar",
+        "is_3class": false
+      }
+    ],
+    "Pneumothorax": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Pleural Effusion": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Pleural Other": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Fracture": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ],
+    "Support Devices": [
+      {
+        "ckpt_path": "ckpts/DenseNet121_224_1e-04_no_hier_3class/best.pth.tar",
+        "is_3class": true
+      }
+    ]
+  }
+}

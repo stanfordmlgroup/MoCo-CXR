@@ -1,0 +1,25 @@
+{
+    "aggregation_method": "mean",
+    "task2models": {
+        "Atelectasis": [
+            {
+                "ckpt_path": "/deep/group/xray4all/final_ckpts/DenseNet121_320_1e-04_uncertainty_ones_top10/iter_336000.pth.tar",
+                "is_3class": false
+            },
+            {
+                "ckpt_path": "/deep/group/xray4all/final_ckpts/DenseNet121_320_1e-04_uncertainty_ones_top10/iter_384000.pth.tar",
+                "is_3class": false
+            }
+        ],
+        "Cardiomegaly": [
+            {
+                "ckpt_path": "/deep/group/xray4all/final_ckpts/DenseNet121_320_1e-04_uncertainty_3-class_top10/iter_403200.pth.tar",
+                "is_3class": true
+            },
+            {
+                "ckpt_path": "/deep/group/xray4all/final_ckpts/DenseNet121_320_1e-04_uncertainty_3-class_top10/iter_350400.pth.tar",
+                "is_3class": true
+            }
+        ]
+    }
+}

@@ -42,6 +42,16 @@ Comparison of MoCo-CXR performance against ResNet initialized baseline when all 
 
 <img src="image_source/cx_all_full_ci.PNG" alt="drawing" width="350"/>
 
+## Checkpoints
+* https://storage.googleapis.com/moco-cxr/mnn-00001.pth.tar
+* https://storage.googleapis.com/moco-cxr/r8w-00001-v2.pth.tar
+* https://storage.googleapis.com/moco-cxr/r8w-00001.pth.tar
+* https://storage.googleapis.com/moco-cxr/r8w-0001.pth.tar
+* https://storage.googleapis.com/moco-cxr/r8w-001.pth.tar
+* https://storage.googleapis.com/moco-cxr/r5w-00001.pth.tar
+* https://storage.googleapis.com/moco-cxr/d1w-00001.pth.tar
+
+
 ## Additional Information
 
 * [Shenzhen dataset](https://qims.amegroups.com/article/view/5132/6030)

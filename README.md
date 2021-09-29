@@ -44,13 +44,24 @@ Comparison of MoCo-CXR performance against ResNet initialized baseline when all 
 
 ## Checkpoints
 * https://storage.googleapis.com/moco-cxr/mnn-00001.pth.tar
-* https://storage.googleapis.com/moco-cxr/r8w-00001-v2.pth.tar
+* https://storage.googleapis.com/moco-cxr/r8w-00001-v2.pth.tar  (slightly different but produces similar result as V1)
 * https://storage.googleapis.com/moco-cxr/r8w-00001.pth.tar
 * https://storage.googleapis.com/moco-cxr/r8w-0001.pth.tar
 * https://storage.googleapis.com/moco-cxr/r8w-001.pth.tar
 * https://storage.googleapis.com/moco-cxr/r5w-00001.pth.tar
 * https://storage.googleapis.com/moco-cxr/d1w-00001.pth.tar
 
+## Running the experiments
+
+### Pre-Training
+Note that the above naming includes "dot", that is, 00001 means 0.0001=1e-4. 
+Our experiments are conducted on Stanford's SLURM. For reference, the training script used is [here](https://github.com/stanfordmlgroup/MoCo-CXR/blob/main/moco_pretraining/scripts/training_scripts/r8w1n416.sh). Alternatively, if you are runng it on a "vanilla" machine, you can refence [this script](https://github.com/stanfordmlgroup/MoCo-CXR/blob/main/moco_pretraining/scripts/training_scripts/sbatch_moco_train_local.sh). You could also referene [a generation script](https://github.com/stanfordmlgroup/MoCo-CXR/blob/main/moco_pretraining/scripts/generate_moco_training_scripts.py) if you would like to generate commands for different learning rate and/or backbone model.
+
+### MoCo-CXR Training with CheXpert
+
+We used splitting scripts like [this](https://github.com/stanfordmlgroup/MoCo-CXR/blob/main/moco_pretraining/scripts/reorganize_files.py) to split data into traininig and validation sets. These also generate the various draws to produce confidence interval for evaluation of our semi-supervised approach. 
+
+For the Shenzhen dataset, we used [this](https://github.com/stanfordmlgroup/MoCo-CXR/blob/main/moco_pretraining/scripts/convert_to_chexpert.py) to convert the unpacked Shenzhen files into CheXpert's default format for easier experiment setup. Note that the actual CheXpert pipeline is a 3 step process, training, model picking (select best checkpoint) and evaluation. Each independent "draw" went through this process. 
 
 ## Additional Information
 

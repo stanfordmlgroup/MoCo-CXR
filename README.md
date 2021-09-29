@@ -51,6 +51,8 @@ Comparison of MoCo-CXR performance against ResNet initialized baseline when all 
 * https://storage.googleapis.com/moco-cxr/r5w-00001.pth.tar
 * https://storage.googleapis.com/moco-cxr/d1w-00001.pth.tar
 
+Note that these checkpoints follow MoCo's implementation. To re-use them for ImageNet-like training process, you will have to "hack" the checkpoint weights using ways similar to our [model saver](https://github.com/stanfordmlgroup/MoCo-CXR/blob/main/chexpert_supervised/chexpert-model/saver/model_saver.py).
+
 ## Running the experiments
 
 ### Pre-Training
